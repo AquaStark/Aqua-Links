@@ -27,24 +27,24 @@ export function LinksHub() {
   }
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blue-500 to-blue-700">
+    <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blue-500 to-blue-600">
       {/* Bubbles Background */}
       <BubblesBackground bubbles={bubbles} />
 
       <div className="container relative z-10 px-4 py-6 mx-auto max-w-3xl">
         {/* Centered logo at the top */}
-        <div className="flex justify-center mb-6">
+        <div className="flex justify-center mb-8">
           <Logo className="w-28 sm:w-32 md:w-36" />
         </div>
 
         {/* Main content */}
         <div>
           {/* Header */}
-          <header className="flex flex-col items-center mb-8 sm:mb-12">
+          <header className="flex flex-col items-center mb-8 sm:mb-10">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-2 sm:mb-4">
               Dive into our Game Ecosystem
             </h1>
-            <p className="text-base sm:text-lg text-white/90 text-center mb-6 sm:mb-10 max-w-xl">
+            <p className="text-base sm:text-lg text-white/90 text-center mb-6 sm:mb-8 max-w-xl">
               Explore all the official resources and communities for our game project
             </p>
           </header>

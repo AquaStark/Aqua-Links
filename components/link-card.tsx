@@ -40,14 +40,14 @@ export function LinkCard({ href, icon, title, description, className = "" }: Lin
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center p-3 sm:p-4 bg-white/10 backdrop-blur-sm rounded-xl hover:bg-white/20 transition-all border border-white/20 h-full"
+        className="flex items-center p-4 bg-blue-500/30 backdrop-blur-sm rounded-xl hover:bg-blue-500/40 transition-all border border-white/10 h-full shadow-lg"
       >
-        <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 mr-3 sm:mr-4 bg-white/20 rounded-full flex-shrink-0">
+        <div className="flex items-center justify-center w-12 h-12 mr-4 bg-blue-400/30 rounded-full flex-shrink-0 text-white">
           {icon}
         </div>
         <div>
-          <h2 className="text-base sm:text-lg font-semibold text-white">{title}</h2>
-          <p className="text-xs sm:text-sm text-white/80">{description}</p>
+          <h2 className="text-lg font-semibold text-white">{title}</h2>
+          <p className="text-sm text-white/80">{description}</p>
         </div>
       </Link>
     </motion.div>
